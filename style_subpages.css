@@ -1,0 +1,135 @@
+:root {
+    --bg: #000000;
+    --card-bg: #121212;
+    --accent: #00ff88;
+    --text-main: #ffffff;
+    --text-dim: #888888;
+    --border: #1f1f1f;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text-main);
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-minimal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.btn-back {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 1.4rem;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.header-minimal h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.date { 
+    color: var(--accent); 
+    font-size: 0.75rem; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+}
+
+.exercise-list { 
+    width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+/* Estrutura do Cartão */
+.exercise-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.exercise-info h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 0 6px 0;
+}
+
+.technique {
+    color: var(--accent);
+    font-size: 0.85rem;
+    margin: 0 0 25px 0;
+    font-weight: 500;
+}
+
+.exercise-metrics {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+.metric-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.metric-box .label {
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.metric-box .value {
+    color: var(--text-main);
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+.unit { 
+    font-size: 0.8rem; 
+    margin-left: 2px; 
+    color: var(--text-dim);
+}
+
+.exercise-notes {
+    border-top: 1px solid var(--border);
+    padding-top: 15px;
+}
+
+.obs-text {
+    color: var(--text-dim);
+    font-size: 0.8rem;
+    font-style: italic;
+    line-height: 1.4;
+    margin: 0;
+}
