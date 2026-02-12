@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino em Andamento | Gym Flow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="workout-header">
+            <a href="index.html" class="btn-back">← Voltar</a>
+            <h1 id="workout-title">Carregando...</h1>
+            <div id="workout-duration" class="time-est"></div>
+        </header>
+
+        <section class="warmup-display">
+            <h2>🔥 Aquecimento</h2>
+            <p id="warmup-content">Carregando aquecimento...</p>
+        </section>
+
+        <hr class="separator">
+
+        <main class="workout-list-container">
+            <ul id="exercise-list" class="exercise-list">
+                </ul>
+        </main>
+
+        <footer>
+            <button id="finish-workout" class="btn-finish" onclick="window.location.href='index.html'">Finalizar Treino</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
