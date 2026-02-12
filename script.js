@@ -55,7 +55,7 @@ const treinos = {
             "Skill: Suporte Argolas (3 x 45s)",
             "Força: Flexão Diamante (4 séries)",
             "Core: Tripé Dinâmico (4 x 10 reps)",
-            "Boxe (Jab+Direto+Gancho+Gancho+Pendular): 5 rounds x 3 min",
+            "Boxe (Jab Direto Gancho Gancho Pendular): 5 rounds x 3 min",
             "Finalizador: Prancha 2 apoios (3 min direto)"
         ]
     }
