@@ -50,12 +50,12 @@ const treinos = {
     "5": {
         titulo: "Técnica Tripé & Estabilidade",
         tempo: "47-52 min",
-        aquecimento: "Suporte básico em solo e ativação de serrátil.",
+        aquecimento: "Rotação de punhos (15/15), círculos com ombros (15/15), Gato-Camelo (10) e Scapular Push-ups (12).",
         exercicios: [
             "Skill: Suporte Argolas (3 x 45s)",
             "Força: Flexão Diamante (4 séries)",
             "Core: Tripé Dinâmico (4 x 10 reps)",
-            "Boxe: 5 rounds x 3 min",
+            "Boxe (Jab+Direto+Gancho+Gancho+Pendular): 5 rounds x 3 min",
             "Finalizador: Prancha 2 apoios (3 min direto)"
         ]
     }
