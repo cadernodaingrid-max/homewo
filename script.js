@@ -53,10 +53,10 @@ const treinos = {
         aquecimento: "Rotação de punhos (15/15), círculos com ombros (15/15), Gato-Camelo (10) e Scapular Push-ups (12).",
         exercicios: [
             "Skill: Suporte Argolas (3 x 45s)",
-            "Força: Flexão Diamante (4 séries)",
+            "Força: Flexão Diamante (4 x 12 reps)",
             "Core: Tripé Dinâmico (4 x 10 reps)",
             "Boxe (Jab Direto Gancho Gancho Pendular): 5 rounds x 3 min",
-            "Finalizador: Prancha 2 apoios (3 min direto)"
+            "Finalizador: Prancha 2 apoios (3 min direto - troca de 15s em 15s)"
         ]
     }
 };
