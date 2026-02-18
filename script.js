@@ -29,7 +29,7 @@ const treinos = {
             "Skill: False Grip (Posição de Remada): 4 x 30 seg (Braços dobrados para focar no punho).",
             "Força: Remada Invertida (Argolas): 4 x 12",
             "Força: Dips/Mergulho na argola (Com Elástico): 4 x 6 a 8",
-            "Boxe (Foco Curta Distância): 5 rounds x 3 min [Jab - Direto - Gancho corpo - Gancho cabeça]",
+            "Boxe (Foco Curta Distância): 5 rounds x 3 min [Jab - Direto - Gancho corpo - Gancho cabeça]", // <--- VÍRGULA ADICIONADA AQUI
             "Finalizador: Superman (3 x 12 reps)"
         ]
     },
@@ -62,21 +62,30 @@ const treinos = {
 const urlParams = new URLSearchParams(window.location.search);
 const opcaoSelecionada = urlParams.get('opcao');
 
+const listaContainer = document.getElementById('exercise-list');
+
 if (opcaoSelecionada && treinos[opcaoSelecionada]) {
     const treino = treinos[opcaoSelecionada];
-    
-    document.getElementById('workout-title').innerText = treino.titulo;
-    document.getElementById('workout-duration').innerText = `⏱ ${treino.tempo}`;
-    document.getElementById('warmup-content').innerText = treino.aquecimento;
 
-    const listaContainer = document.getElementById('exercise-list');
+    
+    document.getElementById('workout-title').textContent = treino.titulo;
+    document.getElementById('workout-duration').textContent = `⏱ ${treino.tempo}`;
+    document.getElementById('warmup-content').textContent = treino.aquecimento;
+
+    
+    listaContainer.innerHTML = "";
     
     treino.exercicios.forEach(exer => {
         const li = document.createElement('li');
-        li.innerHTML = `
-            <input type="checkbox">
-            <span>${exer}</span>
-        `;
+        
+        const checkbox = document.createElement('input');
+        checkbox.type = "checkbox";
+        
+        const span = document.createElement('span');
+        span.textContent = exer;
+
+        li.appendChild(checkbox);
+        li.appendChild(span);
         listaContainer.appendChild(li);
     });
 } else {
