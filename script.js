@@ -29,7 +29,7 @@ const treinos = {
             "Skill: False Grip (Posição de Remada): 4 x 30 seg (Braços dobrados para focar no punho).",
             "Força: Remada Invertida (Argolas): 4 x 12",
             "Força: Dips/Mergulho na argola (Com Elástico): 4 x 6 a 8",
-            "Boxe (Foco Curta Distância): 5 rounds x 3 min [Jab - Direto - Gancho corpo - Gancho cabeça]"
+            "Boxe (Foco Curta Distância): 5 rounds x 3 min [Jab - Direto - Gancho corpo - Gancho cabeça]",
             "Finalizador: Superman (3 x 12 reps)"
         ]
     },
