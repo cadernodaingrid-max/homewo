@@ -1,60 +1,62 @@
 const treinos = {
     "1": {
-        "titulo": "Home A: Estabilidade (Support)",
+        "titulo": "Home A: Empurrar & Estabilidade",
         "tempo": "50-55 min",
         "aquecimento": "Mobilidade de punhos, escápulas e 3 séries de 30s de prancha abdominal.",
         "exercicios": [
-            "Skill: Support Hold Braço Esticado - (5 x max)",
-            "Força: Flexão Diamante (Tatame): 4 x 10 a 12",
-            "Core: L-Sit Progressão (Joelhos no Peito): 4 x 20 seg",
-            "Boxe (Foco Técnica de Linha): 5 rounds x 3 min [Jab - Direto - Jab - Direto - Passo atrás]"
+            "Skill: Support Hold nas Argolas ou Paraletes de 40cm (Mãos em RTO): 4 x max",
+            "Força 1: Dips (Mergulho) nas Argolas: 4 x falha técnica",
+            "Força 2: Flexão de Braço nos Paraletes de 10cm: 4 x 10 a 12",
+            "Boxe (Foco Técnica de Linha): 5 rounds x 3 min [Jab - Direto - Jab - Direto - Passo atrás]",
+            "Finalizador: Tríceps no Elástico (Ancorado alto): 3 x 15 a 20"
         ]
     },
     "2": {
-        "titulo": "Foco Isometria & Tríceps",
-        "tempo": "52-57 min",
-        "aquecimento": "Rotação de ombros, mobilidade de cotovelos e prancha lateral (30s cada lado).",
+        "titulo": "Home B: Puxar & Força de Costas",
+        "tempo": "48-53 min",
+        "aquecimento": "Ativação de dorsais com elástico (Band Pull Apart) e mobilidade de coluna.",
         "exercicios": [
-            "Skill: Ring Plank (Prancha nas Argolas): 5 x 45s",
-            "Força: Dips Argolas (4 séries x falha técnica)",
-            "Core: Prancha 2 apoios (4 x 45s/lado)",
-            "Boxe (Foco Volume): 5 rounds x 3 min [Jab - Jab - Direto - Cruzado - Cruzado]"
+            "Skill/Pegada: False Grip na posição de Remada Invertida: 4 x 30 seg (Braços dobrados)",
+            "Força 1: Remada Invertida nas Argolas (Corpo horizontal): 4 x 10 a 12",
+            "Força 2: Puxada Alta Vertical com Elástico (Ancorado alto): 4 x 12 a 15",
+            "Boxe (Foco Volume): 5 rounds x 3 min [Jab - Jab - Direto - Cruzado - Cruzado]",
+            "Finalizador: Rosca Bíceps com Elástico: 3 x 15"
         ]
     },
     "3": {
-        "titulo": "Home B: Dinâmica (Puxar/Empurrar)",
-        "tempo": "48-53 min",
-        "aquecimento": "Ativação de dorsais (band pull apart) e mobilidade de pescoço/coluna.",
+        "titulo": "Gym: Inferiores Foco Força (Na Academia)",
+        "tempo": "50-60 min",
+        "aquecimento": "5 min esteira leve + Agachamento livre sem peso (20 reps).",
         "exercicios": [
-            "Skill: False Grip (Posição de Remada): 4 x 30 seg (Braços dobrados para focar no punho).",
-            "Força: Remada Invertida (Argolas): 4 x 12",
-            "Força: Dips/Mergulho na argola (Com Elástico): 4 x 6 a 8",
-            "Boxe (Foco Curta Distância): 5 rounds x 3 min [Jab - Direto - Gancho corpo - Gancho cabeça]", // <--- VÍRGULA ADICIONADA AQUI
-            "Finalizador: Superman (3 x 12 reps)"
+            "Quadríceps/Glúteos: Agachamento no Smith: 4 x 8 a 10",
+            "Cadeia Posterior/Lombar: Levantamento Terra (Barra): 3 x 8",
+            "Isolamento Posterior: Cadeira Flexora: 3 x 12",
+            "Unilateral: Leg Press Horizontal (Foco amplitude): 3 x 10 por perna",
+            "Panturrilhas: Gêmeos em Pé (Máquina ou Smith): 4 x 15"
         ]
     },
     "4": {
-        "titulo": "Foco Explosão & Estabilidade Lateral",
+        "titulo": "Home C: Core Avançado & Ombros",
         "tempo": "45-50 min",
-        "aquecimento": "Agachamentos livres, polichinelos e mobilidade de quadril.",
+        "aquecimento": "Rotação de ombros, mobilidade de cotovelos e prancha lateral (30s cada lado).",
         "exercicios": [
-            "Skill: Ring Flyes Isométrico (Argolas baixas): 5 x 20s",
-            "Força: Agachamento Elástico (4 x 15 reps)",
-            "Core: Rodinha Diagonal (3 x 10 reps)",
-            "Boxe (Foco Defesa/Contra-ataque): 5 rounds x 3 min [Jab - Direto - Esquiva Lateral - Direto]",
-            "Finalizador: Sombra c/ Peso (2 rounds x 3 min)"
+            "Skill: Ring Plank (Prancha nas Argolas): 4 x 45s",
+            "Core Avançado: L-Sit Progressão nos Paraletes de 40cm (Joelhos no peito): 4 x 20 seg",
+            "Ombros: Elevação Lateral com Elástico: 4 x 12 a 15",
+            "Boxe (Foco Curta Distância): 5 rounds x 3 min [Jab - Direto - Gancho corpo - Gancho cabeça]",
+            "Finalizador: Superman no Tatame (Extensão lombar): 3 x 12"
         ]
     },
     "5": {
-        "titulo": "Técnica de Pegada & Suporte",
+        "titulo": "Home D: Condicionamento & Potência",
         "tempo": "47-52 min",
-        "aquecimento": "Rotação de punhos (15/15), círculos com ombros (15/15), Gato-Camelo (10) e Scapular Push-ups (12).",
+        "aquecimento": "Mobilidade de tornozelos, joelhos, círculos com ombros e Scapular Push-ups (12).",
         "exercicios": [
-            "Skill: Suporte Argolas com RTO (Mãos para fora): 3 x 45s",
-            "Força: Flexão Diamante (4 x 12 reps)",
-            "Core: Abdominal Remador (4 x 25 reps)",
-            "Boxe (Foco Coordenação Complexa): 5 rounds x 3 min [Jab - Direto - Gancho - Gancho - Pendular]",
-            "Finalizador: Prancha 2 apoios (3 min direto - troca de 15s em 15s)"
+            "Cardio/Agilidade: 10 a 15 min de Corda de Pular ou Patins de forma contínua: 1 x max",
+            "Força: Flexão Diamante no Tatame: 4 x 10 a 12",
+            "Core: Abdominal Remador (Com pesos de punho de 1kg): 4 x 20 a 25",
+            "Boxe (Foco Defesa/Contra-ataque): 5 rounds x 3 min [Jab - Direto - Esquiva Lateral - Direto]",
+            "Finalizador: Prancha 2 apoios na Bola de Pilates: 3 min direto (Troca a cada 15s)"
         ]
     }
 };
