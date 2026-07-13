@@ -6,7 +6,7 @@ const treinos = {
         "exercicios": [
             "Boxe (Foco Técnica de Linha): 4 rounds x 3 min [Jab - Direto - Jab - Direto - Passo atrás] (Descanso: 1 min)",
             "Skill/Ativação: Support Hold nas Argolas (Mãos em RTO): 2 x 20 a 30 seg (Não ir até o limite)",
-            "Força 1: Dips (Mergulho) nas Argolas ou Paralelas: 4 x falha técnica (Foco em controle)",
+            "Força 1: Dips (Mergulho) nas Argolas ou Paralelas: 4 x 6 a 8 (Foco em controle)",
             "Força 2: Flexão de Braço nos Paraletes de 10cm: 3 x 10 a 12 (Cadência lenta)",
             "Finalizador: Tríceps no Elástico (Ancorado alto): 3 x 15 a 20 (Estímulo metabólico)"
         ]
@@ -17,10 +17,10 @@ const treinos = {
         "aquecimento": "Ativação de dorsais com elástico (Band Pull Apart) e mobilidade de coluna.",
         "exercicios": [
             "Boxe (Foco Volume de Golpes): 4 rounds x 3 min [Jab - Jab - Direto - Cruzado - Cruzado] (Descanso: 1 min)",
-            "Skill/Ativação: False Grip na posição de Remada Invertida: 2 x 20 seg (Braços dobrados)",
-            "Força 1: Barra Fixa nas Argolas (Pull-ups): 4 x 6 a 8 (Use elástico nos pés se precisar de assistência)",
+            "Força 1: Barra Fixa nas Argolas (Pull-ups): 4 x 6 a 8 (Elástico nos pés)",
             "Força 2: Remada Invertida nas Argolas (Corpo horizontal): 4 x 10 a 12",
-            "Finalizador: Rosca Bíceps com Elástico: 3 x 15 (Foco na contração)"
+            "Finalizador 1: Rosca Bíceps com Elástico: 3 x 15 (Foco na contração)",
+            "Finalizador2 - Skill/Ativação: False Grip na posição de Remada Invertida: 2 x 20 seg (Braços dobrados)"
         ]
     },
     "3": {
@@ -28,8 +28,8 @@ const treinos = {
         "tempo": "55-60 min",
         "aquecimento": "Mobilidade de quadril/tornozelo + Agachamento livre sem peso (2 séries de 15 reps).",
         "exercicios": [
-            "Força Coordenativa: Levantamento Terra (Barra Livre): 3 x 6",
             "Quadríceps/Glúteos: Agachamento Livre com Barra: 4 x 8 a 10",
+            "Força Coordenativa: Levantamento Terra (Barra Livre): 3 x 6",
             "Leg Press 45º: 3 x 10 a 12",
             "Isolamento Posterior: Cadeira Flexora: 3 x 12 (Segurando 1s na máxima contração)",
             "Panturrilhas: Gêmeos em Pé (Máquina ou Smith): 4 x 15 (3s de alongamento embaixo)"
@@ -53,9 +53,10 @@ const treinos = {
         "aquecimento": "Mobilidade de tornozelos, joelhos e Scapular Push-ups (2 séries de 12).",
         "exercicios": [
             "Cardio/Agilidade: Corda de Pular: 10 a 12 min (Ritmo moderado para regeneração)",
-            "Potência/Explosão: Flexão Diamante no Tatame: 4 x 8 a 10 (Foco na subida rápida)",
+            "Potência/Explosão: Flexão: 4 x 5-6 (Foco na subida explosiva)",
             "Core Dinâmico: Abdominal Remador (Com pesos de punho de 1kg): 3 x 20",
             "Boxe Burnout (Foco Cardio/Velocidade): 4 rounds x 3 min [Jab - Direto - Esquiva Lateral - Direto]",
+            "Potência/Explosão: Flexão Diamante no Tatame: 3 séries até a falha",
             "Finalizador Estabilidade: Prancha 2 apoios na Bola de Pilates: 3 séries de 45s (Estático controlado)"
         ]
     }
