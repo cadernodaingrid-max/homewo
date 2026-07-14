@@ -23,18 +23,6 @@ const treinos = {
             "Finalizador2 - Skill/Ativação: False Grip na posição de Remada Invertida: 2 x 20 seg (Braços dobrados)"
         ]
     },
-    "3": {
-        "titulo": "Gym: Inferiores Cadência e Força Máxima",
-        "tempo": "55-60 min",
-        "aquecimento": "Mobilidade de quadril/tornozelo + Agachamento livre sem peso (2 séries de 15 reps).",
-        "exercicios": [
-            "Quadríceps/Glúteos: Agachamento Livre com Barra: 4 x 8 a 10",
-            "Força Coordenativa: Levantamento Terra (Barra Livre): 3 x 6",
-            "Leg Press 45º: 3 x 10 a 12",
-            "Isolamento Posterior: Cadeira Flexora: 3 x 12 (Segurando 1s na máxima contração)",
-            "Panturrilhas: Gêmeos em Pé (Máquina ou Smith): 4 x 15 (3s de alongamento embaixo)"
-        ]
-    },
     "4": {
         "titulo": "Home C: Core Avançado & Ombros",
         "tempo": "50-55 min",
